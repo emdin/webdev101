@@ -98,11 +98,11 @@ body {
   flex: 1;
 }
 
-.main .topics, .main .card {
+.main .topics, .main .cards {
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 11px;
-
+  color: #1d1d1d;
 }
 
 .main .topics {
@@ -111,15 +111,14 @@ body {
   padding-top: 12px;
 }
 
-.main .card {
+.main .cards {
   background-color: #fff;
-  flex: 30
+  flex: 30;
 }
 
 /* Список вопросов */
 
 ol {
-  color: #1d1d1d;
   font-size: 16px;
   font-family: 'Proxima Nova Bold';
 }
