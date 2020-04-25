@@ -44,6 +44,13 @@ body, html {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "PFRegal";
+  src: url("fonts/PFRegal-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
 body {
   color: #fff;
   font-family: 'Proxima Nova'
@@ -114,6 +121,7 @@ body {
 .main .cards {
   background-color: #fff;
   flex: 30;
+  padding: 0px 30px 12px 30px;
 }
 
 /* Список вопросов */
@@ -130,4 +138,42 @@ ol li {
 
 ol li:hover {
   color: #6d6d6d;
+}
+
+/* Карточка */
+
+.card {
+
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #b88b59;
+  text-align: center;
+  font-family: 'Proxima Nova Bold';
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Proxima Nova Bold';
+}
+
+.card p {
+  font-family: 'PFRegal';
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.card a {
+  color: #1d1d1d;
+  text-decoration: none;
+  border-bottom: 1px #b88b59 solid;
+}
+
+.card .update {
+  padding: 12px 15px 13px;
+  border-radius: 8px;
+  background-color: #fff8c4;
+  border: 1px solid rgba(0,0,0,.08);
 }
