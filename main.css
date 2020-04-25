@@ -86,3 +86,24 @@ body {
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+
+/* Центральный блок */
+
+.main {
+  display: flex;
+  padding: 20px 15% 20px 15%;
+}
+
+.main .gap {
+  flex: 1;
+}
+
+.main .topics {
+  background-color: #fff;
+  flex: 20
+}
+
+.main .card {
+  background-color: #fff;
+  flex: 30
+}
