@@ -143,7 +143,7 @@ ol li:hover {
 /* Карточка */
 
 .card {
-
+  display: none;
 }
 
 .card h3 {
