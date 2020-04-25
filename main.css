@@ -20,7 +20,6 @@ body, html {
 }
 
 .wrapper .header {
-  height: 300px;
   background-color: #1a1a1a;
 }
 
@@ -29,10 +28,29 @@ body, html {
   background-color: #f2f2f2;
 }
 
+/* Шрифты и цвета */
+
+body {
+  color: #fff;
+}
+
 /* Картинка */
 
 .image {
   width: 150px;
   height: 150px;
   margin: 30px auto;
+}
+
+/* Верхний блок */
+
+.header {
+  padding-bottom: 30px;
+}
+
+.header h1, .header h2 {
+  width: 60%;
+  max-width: 840px;
+  text-align: center;
+  margin: 0px auto 0px auto;
 }
