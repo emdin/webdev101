@@ -98,12 +98,37 @@ body {
   flex: 1;
 }
 
-.main .topics {
+.main .topics, .main .card {
   background-color: #fff;
-  flex: 20
+  border: 1px solid #eee;
+  border-radius: 11px;
+
+}
+
+.main .topics {
+  flex: 20;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.1), inset 0 4px 0 #b88b58;
+  padding-top: 12px;
 }
 
 .main .card {
   background-color: #fff;
   flex: 30
+}
+
+/* Список вопросов */
+
+ol {
+  color: #1d1d1d;
+  font-size: 16px;
+  font-family: 'Proxima Nova Bold';
+}
+
+ol li {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+ol li:hover {
+  color: #6d6d6d;
 }
