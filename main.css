@@ -30,8 +30,23 @@ body, html {
 
 /* Шрифты и цвета */
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/ProximaNova-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("fonts/ProximaNova-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
 body {
   color: #fff;
+  font-family: 'Proxima Nova'
 }
 
 /* Картинка */
@@ -53,4 +68,21 @@ body {
   max-width: 840px;
   text-align: center;
   margin: 0px auto 0px auto;
+  font-weight: 400;
+  font-size: 37px;
+}
+
+.header h1 {
+  font-family: 'Proxima Nova Bold'
+}
+
+.header h1 span {
+  font-family: 'Proxima Nova'
+}
+
+.header h2 {
+  color: #b88b59;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
