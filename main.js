@@ -18,6 +18,21 @@ const attachClicksToList = () => {
 }
 
 const clickOnTopic = (event) => {
+  hideAllCards();
+  const number = event.target.getAttribute('number');
+  const cardId = `card-${number}`;
+  document.getElementById(cardId).style.display = 'block';
+}
+
+const hideAllCards = () => {
+
+  const nodeList = document.getElementById('cardsList').children;
+  const nodeListArray = Array.from(nodeList);
+
+  nodeListArray.forEach((item) => {
+    item.style.display = 'none';
+  });
+
 }
 
 document.addEventListener("DOMContentLoaded", onLoad);
